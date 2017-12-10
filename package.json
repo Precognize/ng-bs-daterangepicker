@@ -10,10 +10,6 @@
     "email": "lfarzati@gmail.com",
     "url": "http://github.com/luisfarzati"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/luisfarzati/ng-bs-daterangepicker.git"
-  },
   "keywords": [
     "angular",
     "bootstrap",
@@ -24,9 +20,6 @@
     "interval",
     "calendar"
   ],
-  "bugs": {
-    "url": "http://github.com/luisfarzati/ng-bs-daterangepicker/issues"
-  },
   "dependencies": {},
   "devDependencies": {
     "bower": "latest",
