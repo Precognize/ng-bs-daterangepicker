@@ -19,7 +19,7 @@
 						return;
 					}
 
-					var options = {};
+					var options = {}; 
 					options.startDate = $parse($attributes.ngModel)($scope) && $parse($attributes.ngModel)($scope).startDate;
 					options.endDate = $parse($attributes.ngModel)($scope) && $parse($attributes.ngModel)($scope).endDate;
 					options.format = $attributes.format || 'YYYY-MM-DD';

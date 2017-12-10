@@ -27,8 +27,7 @@
   "bugs": {
     "url": "http://github.com/luisfarzati/ng-bs-daterangepicker/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "latest",
     "grunt": "latest",
