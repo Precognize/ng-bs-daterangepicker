@@ -20,6 +20,8 @@
 					}
 
 					var options = {};
+					options.startDate = $parse($attributes.ngModel)($scope) && $parse($attributes.ngModel)($scope).startDate;
+					options.endDate = $parse($attributes.ngModel)($scope) && $parse($attributes.ngModel)($scope).endDate;
 					options.format = $attributes.format || 'YYYY-MM-DD';
 					options.separator = $attributes.separator || ' - ';
 					options.minDate = $attributes.minDate && moment($attributes.minDate);
